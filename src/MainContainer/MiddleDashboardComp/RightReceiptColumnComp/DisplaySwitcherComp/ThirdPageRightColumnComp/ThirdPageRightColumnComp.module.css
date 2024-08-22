@@ -1,0 +1,51 @@
+.thirdPageColumnCompContainer {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  height: 100%;
+  width: 97%;
+  max-width: 35rem;
+  /* background-color: chocolate; */
+}
+
+.upperPictureLabelContentContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: pink; */
+  width: 100%;
+}
+
+.lowerBagButtonSection {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  height: 18rem;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.circleBlueBagButtonStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+  color: white;
+  outline-style: none;
+  width: 8rem;
+  height: 3rem;
+  border-style: none;
+  background-color: #2074d9;
+}
+
+.blueButtonBagRowContainer {
+  display: flex;
+  height: 3rem;
+  width: 100%;
+  /* background-color: orange; */
+}

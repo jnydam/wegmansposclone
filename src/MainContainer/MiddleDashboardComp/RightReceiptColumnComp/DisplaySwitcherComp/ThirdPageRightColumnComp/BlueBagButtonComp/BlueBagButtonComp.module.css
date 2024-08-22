@@ -1,0 +1,15 @@
+.blueBagButtonContainer {
+  display: flex;
+  outline-style: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  border-style: none;
+  cursor: pointer;
+  width: 50%;
+  height: 100%;
+  background-color: #2074d9;
+}

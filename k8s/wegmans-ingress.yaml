@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wegmanspos-frontend-ingress
+  annotations:
+    # ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: nginx
+spec:
+  tls:
+    - hosts:
+        - wegmanspos.jnydam.com
+      secretName: wegmansposjnydamdotcomsecret
+  rules:
+    - host: wegmanspos.jnydam.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: wegmanspos-frontend-service
+                port:
+                  number: 80

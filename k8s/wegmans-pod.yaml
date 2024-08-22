@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: wegmanspos-frontendapp-pod
+  labels:
+    app: wegmansposfrontendserviceapp
+spec:
+  containers:
+    - name: wegmanspos-frontendappcontainer
+      image: //imagename
+      ports:
+        - containerPort: 3000

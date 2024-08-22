@@ -1,0 +1,53 @@
+.firstPageRightColumnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  /* background-color: blanchedalmond; */
+}
+
+.lowerButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  /* background-color: yellow; */
+  height: 20rem;
+}
+
+.searchButtonStyle {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  outline-style: none;
+  border-style: none;
+  margin-bottom: 0.5rem;
+  height: 6rem;
+  border-radius: 0.4rem;
+  width: 95%;
+  background-color: #7534cb;
+}
+
+.payNowButtonStyle {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  outline-style: none;
+  border-style: none;
+  height: 6rem;
+  border-radius: 0.4rem;
+  margin-bottom: 0.2rem;
+  width: 95%;
+  background-color: #92bd3f;
+}
+
+/* 92BD3F */
+
+.buttonCommonText {
+  font-size: 1.3rem;
+  color: white;
+}

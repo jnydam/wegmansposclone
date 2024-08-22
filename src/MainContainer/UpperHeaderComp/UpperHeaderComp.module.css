@@ -1,0 +1,33 @@
+.upperHeaderCompStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  min-height: 4rem;
+  width: 100%;
+  background-color: #134ec3;
+}
+
+.topInputContainer {
+  width: 30rem;
+  font-size: 1.2rem;
+  outline-style: none;
+  text-align: center;
+  border-radius: 2rem;
+  height: 60%;
+  border-style: none;
+  background-color: white;
+}
+
+.topInputContainer::placeholder {
+  color: black;
+}
+
+.transparentInputBlocker {
+  display: flex;
+  position: absolute;
+  height: 60%;
+  z-index: 3;
+  width: 80%;
+  background-color: none;
+}

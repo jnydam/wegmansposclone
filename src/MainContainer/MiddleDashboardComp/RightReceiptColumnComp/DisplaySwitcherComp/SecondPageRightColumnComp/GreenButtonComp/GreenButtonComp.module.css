@@ -1,0 +1,13 @@
+.greenButtonContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  outline-style: none;
+  border-style: none;
+  border-radius: 0.3rem;
+  background-color: #82b62b;
+}

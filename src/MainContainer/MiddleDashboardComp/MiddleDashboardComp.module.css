@@ -1,0 +1,7 @@
+.middleDashboardStyle {
+  display: flex;
+  background-color: #b1bdc6;
+  width: 100%;
+  height: calc(100% - 9rem);
+  overflow-y: scroll;
+}

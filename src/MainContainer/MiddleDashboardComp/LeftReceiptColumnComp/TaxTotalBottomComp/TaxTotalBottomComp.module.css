@@ -1,0 +1,59 @@
+.taxTotalBottomContainerStyle {
+  display: flex;
+  flex-direction: column;
+  height: 3.3rem;
+  min-height: 3.3rem;
+  width: 100%;
+  /* background-color: lightcoral; */
+}
+
+.taxContainerRowComp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  /* background-color: beige; */
+}
+
+.totalContainerRowComp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  /* background-color: lightcyan; */
+}
+
+.numberTaxBoxStyle {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  margin-right: 3rem;
+  justify-content: flex-end;
+  border-bottom: 2px solid black;
+  height: 100%;
+  width: 8rem;
+  /* background-color: lightpink; */
+}
+
+.numberTotalBoxStyle {
+  display: flex;
+  font-weight: bold;
+  margin-right: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 8rem;
+  /* background-color: lightpink; */
+}
+
+.taxTotalLabelBox {
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+  width: 5rem;
+  justify-content: flex-end;
+  /* background-color: yellow; */
+  height: 100%;
+}
